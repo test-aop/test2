@@ -8,3 +8,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: test-aop/hello_world@1.0.0-alpha.xyz
+      - name: Aop Tests
+        uses: octademo/aop-tests@1.0.0
